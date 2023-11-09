@@ -1,10 +1,10 @@
 # Final-group-2023
 [10:57 AM, 11/9/2023] Shritha Reddy: Okay
-[3:53 PM, 11/9/2023] Sujith NJIT : # FinalGroup
+[3:53 PM, 11/9/2023] Shritha Reddy : # FinalGroup
 
 #Signin Sheet
 
-| Date        | Sign-in | T sujith Sign-in |
+| Date        | Sign-in | Shritha Reddy Sign-in |
 |-------------|------------------|------------------|
 | Nov 7, 2023 |     logged in    |     logged in    |
 | Nov 9, 2023 |      logged in   |     logged in    |              
