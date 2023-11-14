@@ -9,7 +9,7 @@
 | Nov 7, 2023 |     logged in    |     logged in    |
 | Nov 9, 2023 |      logged in   |     logged in    |              
 | Nov 13, 2023|     logged in    |     logged in
-| Nov 16, 2023|                  |                  |
+| Nov 14, 2023|     logged in    |                  |
 | Nov 21, 2023|                  |                  |
 | Nov 23, 2023|                  |                  |
 | Nov 28, 2023|                  |                  |
