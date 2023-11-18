@@ -23,6 +23,7 @@
 **DOCUMENTATIOIN**
 
 1. COMPETITIVE ANALYSIS
+
 Gregorys coffee- Established in 2006, it's a latecomer compared to Starbucks and Dunkin' Donuts, but it has quickly grown to become a coffee shop known to every New Yorker. Gregorys Coffee stores are characterized by a trendy atmosphere, high-quality coffee, and a strong focus on healthy ingredients.
 Brand Archetype-"Innovator" 
 They use different ways in order to attract the customers which include，
@@ -62,49 +63,50 @@ ARCHETYPE	Potentially an "Everyman" archetype, focusing on providing quality cof
 3. PERSONA:
  Emily, the Conscious Coffee Enthusiast
 
-Demographic Information:
-
-    Age: 30
+DEMOGRAPHIC INFORMATION:
+Age: 30
     Gender: Female
     Occupation: Environmental Scientist
     Location: Eco-friendly neighborhood
     Income: Middle to upper-middle class
 
-Customer Journey:
-
-    Sustainability Practices:
+CUSTOMER JOURNEY :
+Sustainability Practices:
         Packaging: Emily cares about reducing waste, so she looks for coffee shops that use eco-friendly and compostable packaging.
         Sourcing: She prefers shops that source ethically and emphasize fair trade practices.
 
-    Coffee Quality:
+  Coffee Quality:
         Bean Origin: Emily is interested in the origin of the coffee beans, preferring shops that provide information about the coffee's source.
         Brewing Methods: She appreciates shops that offer a variety of brewing methods, showcasing a commitment to the craft of coffee.
 
-    Menu Variety:
+   Menu Variety:
         Specialty Options: Emily enjoys exploring unique and specialty coffee blends.
         Dietary Considerations: As she follows a plant-based diet, she looks for shops with dairy-free alternatives and vegan snack options.
-
-    Ambiance and Comfort:
+    
+Ambiance and Comfort:
         Sustainable Decor: Emily appreciates shops with eco-friendly decor and furniture.
         Comfortable Seating: She considers the availability of comfortable seating and a relaxed ambiance, sometimes looking for a quiet place to work or read.
-
-    Community Involvement:
+Community Involvement:
         Local Partnerships: Emily is likely to choose a coffee shop that collaborates with local businesses or participates in community events.
         Social Responsibility: She values coffee shops that contribute to social and environmental causes.
-
-    Tech Integration:
+	
+ Tech Integration:
         Online Presence: Emily may check online reviews, social media, or the shop's website to gauge the overall customer experience.
-        Mobile Ordering: A coffee shop offering mobile ordering aligns with her desire for efficiency.
-
-    Ethical Employee Practices:
+        Mobile Ordering: A coffee shop offering mobile ordering aligns with her desire for efficiency. 
+	
+ Ethical Employee Practices:
         Fair Wages: Emily appreciates coffee shops that prioritize fair wages and ethical treatment of employees.
         Knowledgeable Staff: She values a staff that is knowledgeable about the coffee they serve and can provide recommendations based on her preferences.
-
-    Promotions and Loyalty Programs:
+    
+Promotions and Loyalty Programs:
         Discounts: Emily considers any ongoing promotions, discounts, or loyalty programs that might enhance her overall experience.
         Exclusive Offerings: Limited-time or exclusive menu items may attract her attention.
+	
+
 
 By addressing these considerations, a coffee shop can successfully attract and retain customers like Emily, the Conscious Coffee Enthusiast, who prioritize sustainability, quality, and a positive overall experience when choosing where to enjoy their coffee.
+
+
 
 
 4. SALES FUNNEL :
