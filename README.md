@@ -23,35 +23,26 @@
 **DOCUMENTATIOIN**
 
 1. COMPETITIVE ANALYSIS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Gregorys coffee- Established in 2006, it's a latecomer compared to Starbucks and Dunkin' Donuts, but it has quickly grown to become a coffee shop known to every New Yorker. Gregorys Coffee stores are characterized by a trendy atmosphere, high-quality coffee, and a strong focus on healthy ingredients.
+Brand Archetype-"Innovator" 
+They use different ways in order to attract the customers which include，
+-They offer cold-pressed juices, which I find very progressive for a coffee chain.
+-They have a separate menu for vegans meanwhile, no other coffee shop has been so successful at meeting the needs of vegetarians and vegans.
+-Another essential aspect of Gregorys Coffee's is that that they were the first to implement a mobile app ordering system, ahead of other coffee chains such as Starbucks. Users can place an order for Gregorys Coffee through the mobile app and the product will be waiting for them when they visit the store. For busy office workers, being able to order coffee without spending their break standing in line is a huge advantage.
+Black Swan Espresso- Established in 2017, Black Swan Espresso is a specialty coffee and Tea shop located in the heart of downtown Newark, NJ.
+Brand Archetype-"Sage" 
+They use different ways in order to attract the customers which include,
+-They provide "Specialty coffee"，that is specifically used to refer to coffee with an 80+ grade on a 100 point scale. This coffee is certified by a licensed Q grader.
+-They have 90+ grade roasts which are available for purchase, so no matter where you are you'11 always be able to enjoy the brew you love.
+-They sell authentic coffee beans from different parts of world for example, beans from columbia, papua new guinea, kenya and etc,.
+Joe Coffee- Established in 2003, their vision was to brew high quality, delicious coffee, and serve it to the neighborhood with warm hospitality.
+Brand Archetype- "Everyman"
+They use different ways in order to attract the customers which include,
+-They believe in forging long-term relationships with producers and trusted suppliers who share this vision, and abide by a strong set of sourcing values; quality, ethics,
+collaboration, and integraty.
+-Until now they're the only coffee shop that i have come across who sell turmeric powder. It is a yellow color powder derived from the turmeric root which carries alot of health
+benefits when consumed.
+-They have their own merchandise where they sel1 various items such as, coffee mugs,gift sets, tumblers and many more.
 
 
 2. SWOT ANALYSIS
@@ -69,7 +60,51 @@ ARCHETYPE	Potentially an "Everyman" archetype, focusing on providing quality cof
 ![image](https://github.com/sv963/Final-group-2023/assets/144735311/fb21dae8-bdd2-4326-ac61-309fdd430049)
 
 3. PERSONA:
+ Emily, the Conscious Coffee Enthusiast
 
+Demographic Information:
+
+    Age: 30
+    Gender: Female
+    Occupation: Environmental Scientist
+    Location: Eco-friendly neighborhood
+    Income: Middle to upper-middle class
+
+Customer Journey:
+
+    Sustainability Practices:
+        Packaging: Emily cares about reducing waste, so she looks for coffee shops that use eco-friendly and compostable packaging.
+        Sourcing: She prefers shops that source ethically and emphasize fair trade practices.
+
+    Coffee Quality:
+        Bean Origin: Emily is interested in the origin of the coffee beans, preferring shops that provide information about the coffee's source.
+        Brewing Methods: She appreciates shops that offer a variety of brewing methods, showcasing a commitment to the craft of coffee.
+
+    Menu Variety:
+        Specialty Options: Emily enjoys exploring unique and specialty coffee blends.
+        Dietary Considerations: As she follows a plant-based diet, she looks for shops with dairy-free alternatives and vegan snack options.
+
+    Ambiance and Comfort:
+        Sustainable Decor: Emily appreciates shops with eco-friendly decor and furniture.
+        Comfortable Seating: She considers the availability of comfortable seating and a relaxed ambiance, sometimes looking for a quiet place to work or read.
+
+    Community Involvement:
+        Local Partnerships: Emily is likely to choose a coffee shop that collaborates with local businesses or participates in community events.
+        Social Responsibility: She values coffee shops that contribute to social and environmental causes.
+
+    Tech Integration:
+        Online Presence: Emily may check online reviews, social media, or the shop's website to gauge the overall customer experience.
+        Mobile Ordering: A coffee shop offering mobile ordering aligns with her desire for efficiency.
+
+    Ethical Employee Practices:
+        Fair Wages: Emily appreciates coffee shops that prioritize fair wages and ethical treatment of employees.
+        Knowledgeable Staff: She values a staff that is knowledgeable about the coffee they serve and can provide recommendations based on her preferences.
+
+    Promotions and Loyalty Programs:
+        Discounts: Emily considers any ongoing promotions, discounts, or loyalty programs that might enhance her overall experience.
+        Exclusive Offerings: Limited-time or exclusive menu items may attract her attention.
+
+By addressing these considerations, a coffee shop can successfully attract and retain customers like Emily, the Conscious Coffee Enthusiast, who prioritize sustainability, quality, and a positive overall experience when choosing where to enjoy their coffee.
 
 
 4. SALES FUNNEL :
