@@ -21,6 +21,8 @@ export default function Home() {
 			<Cards/>
 			<br></br>
 			<br></br>
+
+			<Aboutus/>
 			
 		</div>
 	);
