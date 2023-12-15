@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import { Card, CardBody, CardFooter } from "@nextui-org/react";
 import Image from 'next/image'; // Import from 'next/image'
