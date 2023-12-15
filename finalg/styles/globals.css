@@ -12,3 +12,11 @@
     background-clip: text;
     /* Add any other font-related properties you need */
   }
+
+  .indiaGradient {
+    background: linear-gradient(to right, orange, white, green);
+    -webkit-background-clip: text;
+    color: transparent; /* This makes the text transparent, showing only the background */
+    background-clip: text;
+    font-style: italic;
+  }
