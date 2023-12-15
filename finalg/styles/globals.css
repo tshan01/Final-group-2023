@@ -20,3 +20,10 @@
     background-clip: text;
     font-style: italic;
   }
+
+  .tasteOfIndiaFont {
+    font-family: 'Roboto', sans-serif; /* Replace with your desired font family */
+    font-size: 45px; /* Adjust the size as needed */
+    font-weight:italic;
+    /* You can add more styling here if needed */
+  }
