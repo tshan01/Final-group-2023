@@ -34,8 +34,15 @@ const Header = () => {
            <a>ABOUT</a>
           </Link>
         </NavbarItem>
+
+        <NavbarItem>
+          <Button color="primary" onClick={openMailchimpSignup} variant="flat">
+            SIGN UP
+          </Button>
+        </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
+
         
        
   );
