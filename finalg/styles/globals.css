@@ -27,3 +27,14 @@
     font-weight:italic;
     /* You can add more styling here if needed */
   }
+
+  .Navbar {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: flex-start; /* Align items to the start (left) of the container */
+  }
+  .Navbar {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: flex-start; /* Align items to the start (left) of the container */
+  }
