@@ -9,23 +9,23 @@ export default function Cards() {
   const list = [
     {
       title: "Espresso",
-      img: "/Espresso.jpg",
+      img: "/Espresso.jpeg",
       price: "$5.50",
     },
     {
       title: "True Mocha",
-      img: "True Mocha.jpeg",
+      img: "/True Mocha.jpeg",
       price: "$15.70",
     },
    
     {
       title: "Cappuccino",
-      img: "Cappuccino.jpeg",
+      img: "/Cappuccino.jpeg",
       price: "$10.00",
     },
     {
       title: "Latte",
-      img: "Latte.jpeg",
+      img: "/Latte.jpeg",
       price: "$5.30",
     },
     {
@@ -36,38 +36,38 @@ export default function Cards() {
   
     {
       title: "Iced Espresso",
-      img: "Iced Espresso.jpeg",
+      img: "/Iced Espresso.jpeg",
       price: "$8.00",
     },
    
     {
       title: "Cold Coffee Creme",
-      img: "Cold Coffee Creme.jpeg",
+      img: "/Cold Coffee Creme.jpeg",
       price: "$12.20",
     },
     {
       title: "Brookie Creme",
-      img: "Brookie Creme.jpeg",
+      img: "/Brookie Creme.jpeg",
       price: "$12.20",
     },
     {
       title: "Peanut Butter Creme",
-      img: "Peanut Butter Creme.jpeg",
+      img: "/Peanut Butter Creme.jpeg",
       price: "$12.20",
     },
     {
       title: "Chocolate Cake",
-      img: "Chocolate Cake.jpeg",
+      img: "/Chocolate Cake.jpeg",
       price: "$12.20",
     },
     {
       title: "Strawberry Cake",
-      img: "Strawberry Cake.jpeg",
+      img: "/Strawberry Cake.jpeg",
       price: "$12.20",
     },
     {
       title: "Basque Cheesecake",
-      img: "Basque Cheesecake.jpeg",
+      img: "/Basque Cheesecake.jpeg",
       price: "$12.20",
     },
 
@@ -90,8 +90,8 @@ export default function Cards() {
               <Image
                 shadow="sm"
                 radius="lg"
-                width="100%"
-                height="100%"
+                width={500}
+                height={300}
                 objectFit="cover"
                 alt={item.title}
                 className="w-full object-cover h-[140px]"
