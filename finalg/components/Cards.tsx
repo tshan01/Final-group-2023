@@ -1,9 +1,6 @@
-'use client'
-
 import React from "react";
-import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
-import Link from 'next/link';
-
+import { Card, CardBody, CardFooter } from "@nextui-org/react";
+import Image from 'next/image'; // Import from 'next/image'
 
 export default function Cards() {
   const list = [
@@ -17,7 +14,6 @@ export default function Cards() {
       img: "/True Mocha.jpeg",
       price: "$15.70",
     },
-   
     {
       title: "Cappuccino",
       img: "/Cappuccino.jpeg",
@@ -33,13 +29,11 @@ export default function Cards() {
       img: "/Long Black.jpeg",
       price: "$3.00",
     },
-  
     {
       title: "Iced Espresso",
       img: "/Iced Espresso.jpeg",
       price: "$8.00",
     },
-   
     {
       title: "Cold Coffee Creme",
       img: "/Cold Coffee Creme.jpeg",
@@ -70,32 +64,22 @@ export default function Cards() {
       img: "/Basque Cheesecake.jpeg",
       price: "$12.20",
     },
-
-
   ];
 
   return (
-    <div className="mb-8 text-center">{/*Added margin-bottom for spacing*/}
-     <h2 className="text-2xl font-bold specialOfferFont mb-4">I LOVE COFFEE</h2>{ /* Added title "Menu" */}
-     <br/>
-     <br/>
+    <div className="mb-8 text-center">
+      <h2 className="text-2xl font-bold specialOfferFont mb-4">I LOVE COFFEE</h2>
 
-    
-    
       <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
         {list.map((item, index) => (
-          
           <Card shadow="sm" key={index} isPressable onPress={() => console.log("item pressed")}>
             <CardBody className="overflow-visible p-0">
               <Image
-                shadow="sm"
-                radius="lg"
-                width={500}
-                height={300}
-                objectFit="cover"
+                src={item.img} // Ensure the path is correct and starts with '/'
                 alt={item.title}
-                className="w-full object-cover h-[140px]"
-                src={item.img}
+                width={500} // Adjust width as needed
+                height={300} // Adjust height as needed
+                objectFit="cover"
               />
             </CardBody>
             <CardFooter className="text-small justify-between">
@@ -105,6 +89,6 @@ export default function Cards() {
           </Card>
         ))}
       </div>
-      </div>
-    );
+    </div>
+  );
 }
