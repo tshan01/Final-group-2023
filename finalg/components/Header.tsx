@@ -16,8 +16,10 @@ const Header = () => {
   };
 
   return (
-    <Navbar class>
-      
+    <Navbar className="coffee-bean-color">
+      <NavbarBrand>
+        <img src="/TB1.png" alt="Your Brand Logo" style={{ width: '100px', height: '100px' }} /> 
+      </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center" style={{ flexGrow: 1 }}>
         <NavbarItem>
           <Link color="foreground" href="/">
@@ -34,17 +36,16 @@ const Header = () => {
            <a>ABOUT</a>
           </Link>
         </NavbarItem>
-
+      </NavbarContent>
+      <NavbarContent justify="end">
+        
         <NavbarItem>
           <Button color="primary" onClick={openMailchimpSignup} variant="flat">
             SIGN UP
           </Button>
         </NavbarItem>
       </NavbarContent>
-      <NavbarContent justify="end">
-
-        
-       
+    </Navbar>
   );
 };
 
