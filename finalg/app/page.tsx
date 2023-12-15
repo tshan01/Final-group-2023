@@ -18,7 +18,7 @@ export default function Home() {
 			<br></br>
 			<br></br>
 		
-			
+			<Cards/>
 			<br></br>
 			<br></br>
 			
