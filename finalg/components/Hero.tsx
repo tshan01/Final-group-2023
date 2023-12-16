@@ -19,7 +19,7 @@ export default function Hero() {
         {/* Text Content on the Left */}
         <div className="text-content py-16 px-8 text-white flex-grow">
           <h1 className="text-4xl font-bold">
-            <span className="text-primary indiaGradient tasteOfIndiaFont">Taste of India in Every Sip!</span><br/><br/>
+            <span className="text-primary indiaGradient tasteOfIndiaFont">From the Lush Hills of India to Your Cup – Explore the Essence of Coorg with Every Sip.!</span><br/><br/>
             <span className="specialOfferFont">Buy 1 get 1 CAPPUCCINO!</span>
             <br />
           </h1>
