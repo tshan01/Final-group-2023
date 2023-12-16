@@ -1,8 +1,5 @@
-'use client'
-
 import React from "react";
 import Image from 'next/image';
-
 
 export default function Hero() {
   return (
@@ -25,7 +22,7 @@ export default function Hero() {
             <span className="specialOfferFont">Buy 1 get 1 CAPPUCCINO!</span>
             <br />
           </h1>
-          <p className="my-4 text-gray-500 text-semibold py-3 font-semibold">DON'T MISS OUT ON THE MAGIC OF COORG COFFEE</p>
+          <p className="my-4 text-gray-500 text-semibold py-3 font-semibold">DON&apos;T MISS OUT ON THE MAGIC OF COORG COFFEE</p>
           <div className="flex gap-4">
             <button className="bg-white flex gap-2 items-center text-black px-4 py-2 rounded-full text-sm">
               REGISTER HERE
@@ -39,23 +36,23 @@ export default function Hero() {
             src="/R1c9.jpg" 
             alt="Coffee Image" 
             width={800} // Adjust as needed
-            height={100} // Adjust as needed
-            
+            height={500} // Adjust as needed
+            layout="intrinsic" // Maintains the aspect ratio of the image
           />
         </div>
 
       </div>
-      <br/>
-      <br/>
-        {/* Top Image */}
-    <div className="container mx-auto" style={{ position: 'relative', height: '30vh' }}>
-      <Image
-        src="/TB1.png" 
-        alt="Top Image Description" 
-       layout="fill"
-        objectFit="cover"
-      />
-    </div>
+      <br/><br/>
+
+      {/* Top Image */}
+      <div className="container mx-auto" style={{ position: 'relative', height: '30vh' }}>
+        <Image
+          src="/TB1.png" 
+          alt="Top Image Description" 
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
     </section>
   );
 }
