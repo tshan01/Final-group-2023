@@ -1,29 +1,24 @@
-
-import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code"
-import { button as buttonStyles } from "@nextui-org/theme";
-import { siteConfig } from "@/config/site";
-import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
-import Cards from "@/components/Cards"
 import Hero from "@/components/Hero";
-import Aboutus from "@/components/AboutUs";
-
+import Cards from "@/components/Cards";
+import AboutUs from "@/components/AboutUs";
 
 export default function Home() {
-	return (
-		<div>
-			<Hero/>
-			<br></br>
-			<br></br>
-		
-			<Cards/>
-			<br></br>
-			<br></br>
+  return (
+    <div>
+      {/* Assign IDs for internal navigation */}
+      <div id="Home">
+        <Hero />
+      </div>
+      <br /><br />
 
-			<Aboutus/>
-			
-		</div>
-	);
+      <div id="Cards">
+        <Cards />
+      </div>
+      <br /><br />
+
+      <div id="AboutUs">
+        <AboutUs />
+      </div>
+    </div>
+  );
 }

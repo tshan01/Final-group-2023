@@ -1,6 +1,10 @@
+'use client'
+// Header.js
+
+
 import React from "react";
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@nextui-org/react";
-import Image from 'next/image'; // Importing Next.js Image component
+
 
 const Header = () => {
   const openMailchimpSignup = () => {
@@ -14,26 +18,24 @@ const Header = () => {
   return (
     <Navbar className="coffee-bean-color">
       <NavbarBrand>
-        <Image src="/TB1.png" alt="Your Brand Logo" width={100} height={100} />
+        <img src="/TB1.png" alt="Your Brand Logo" style={{ width: '100px', height: '100px' }} /> 
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center" style={{ flexGrow: 1 }}>
-        <NavbarItem>
-          <Link color="foreground" href="/">
-            <a>HOME</a>
-          </Link>
-        </NavbarItem>
         <NavbarItem isActive>
-          <Link color="foreground" href="/cards">
-            <a>MENU</a>
-          </Link>
+        <a href="#Hero" className="link">HOME</a>
+          
+    
+ </NavbarItem>
+        <NavbarItem isActive>
+        <a href="#Cards" className="link">MENU</a>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/about">
-            <a>ABOUT</a>
-          </Link>
+        <a href="#AboutUs" className="link">ABOUT</a>
+          
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
+        
         <NavbarItem>
           <Button color="primary" onClick={openMailchimpSignup} variant="flat">
             SIGN UP
