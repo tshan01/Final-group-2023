@@ -4,13 +4,13 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="py-12  font-worksans" style={{ backgroundColor: 'black', color: 'white' }}>
+    <section id="AboutUs" className="py-12  font-worksans" style={{ backgroundColor: 'black', color: 'white' }}>
       <div className="container mx-auto flex items-center">
 
         {/* Image on the Left */}
         <div className="flex-none mr-8">
           <img 
-            src="/c8.avif" 
+            src="/c8.webp" 
             alt="Coffee Shop" 
             className="image-about-us" 
             
@@ -35,8 +35,8 @@ const AboutUs = () => {
 </div>
 
 <div className="flex justify-center space-x-4 mt-8">
-<img src="/c11.avif" alt="Description of Image 3" className="rounded-md" style={{ width: '200px', height: 'auto' }} />
-          <img src="/c12.avif" alt="Description of Image 2" className="rounded-md" style={{ width: '200px', height: 'auto' }} />
+<img src="/c11.webp" alt="Description of Image 3" className="rounded-md" style={{ width: '200px', height: 'auto' }} />
+          <img src="/c12.webp" alt="Description of Image 2" className="rounded-md" style={{ width: '200px', height: 'auto' }} />
           <img src="/c5.webp" alt="Description of Image 3" className="rounded-md" style={{ width: '200px', height: 'auto' }} />
           <img src="/TB1.png" alt="Description of Image 3" className="rounded-md" style={{ width: '200px', height: 'auto' }} />
         </div>
