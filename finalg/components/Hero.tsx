@@ -34,12 +34,12 @@ export default function Hero() {
         </div>
 
         {/* Full Image on the Right */}
-        <div className="flex-none" style={{ maxWidth: '70%', height: 'auto' }}>
+        <div className="flex-none" style={{ maxWidth: '100%', height: '70%' }}>
           <Image 
-            src="/c9.webp" 
+            src="/R1c9.jpg" 
             alt="Coffee Image" 
-            width={500} // Adjust as needed
-            height={300} // Adjust as needed
+            width={800} // Adjust as needed
+            height={100} // Adjust as needed
             
           />
         </div>
