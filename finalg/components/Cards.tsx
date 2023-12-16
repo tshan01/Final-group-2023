@@ -92,7 +92,7 @@ export default function Cards() {
                 radius="lg"
                 width="100%"
                 height="100%"
-                objectFit="cover"
+                //Removed objectFit="cover"
                 alt={item.title}
                 className="w-full object-cover h-[140px]"
                 src={item.img}
