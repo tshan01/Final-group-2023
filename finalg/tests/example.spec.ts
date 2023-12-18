@@ -19,3 +19,9 @@ test('Test Hero Component', async ({ page }) => {
   expect(imageAltText).toBe('Coffee Image');
 });
 
+test('Navbar renders correctly', async ({ page }) => {
+  await page.goto('http://localhost:3000'); // Adjust the URL to your application's URL
+  const navbar = await page.locator('nav');
+  expect(await navbar.isVisible()).toBeTruthy();
+});
+
