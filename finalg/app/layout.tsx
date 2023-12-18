@@ -6,7 +6,8 @@ import { Providers } from "./providers";
 import Header from "@/components/Header";
 import { Link } from "@nextui-org/link";
 import clsx from "clsx";
-
+import GoogleAnalytics from "@/components/GoogleAnalytics";
+import CookieBanner from "@/components/CookiBanner";
 export const metadata: Metadata = {
 	title: {
 		default: siteConfig.name,
@@ -32,6 +33,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<head />
+			<GoogleAnalytics GA_MEASUREMENT_ID='G-84Y9RYT77F'/>
 			<body
 				className={clsx(
 					"min-h-screen bg-background font-sans antialiased",
@@ -43,6 +45,7 @@ export default function RootLayout({
 						<Header />
 						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
 							{children}
+							<CookieBanner/>
 						</main>
 						<footer className="w-full flex items-center justify-center py-3">
 							<Link
