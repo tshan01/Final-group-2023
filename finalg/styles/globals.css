@@ -1,11 +1,12 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .specialOfferFont {
-    font-family: 'Roboto', sans-serif; /* Replace with your desired font-family */
-    font-size: 40px; /* Replace with your desired font-size */
-    font-weight: bold; /* Make the font Bold */
+    font-family: 'Lato', sans-serif; /* Replace with your desired font-family */
+    font-size: 18px; /* Replace with your desired font-size */
+    font-weight: 400; /* Make the font Bold */
     color:transparent; /* Optional: Change color if needed */
     background: linear-gradient(to right,#9C7945,#D8C691,#D8C691,#BE9E45);
     -webkit-background-clip: text;
@@ -18,13 +19,25 @@
     -webkit-background-clip: text;
     color: transparent; /* This makes the text transparent, showing only the background */
     background-clip: text;
-    font-style: italic;
+    
+  }
+
+  .headingFont {
+    font-family: 'Roboto', sans-serif; /* Replace with your desired font-family */
+    font-size: 50px; /* Replace with your desired font-size */
+    font-weight: bold; /* Make the font Bold */
+    color:transparent; /* Optional: Change color if needed */
+    background: linear-gradient(to right,#9C7945,#D8C691,#D8C691,#BE9E45);
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Add any other font-related properties you need */
   }
 
   .tasteOfIndiaFont {
-    font-family: 'Roboto', sans-serif; /* Replace with your desired font family */
-    font-size: 45px; /* Adjust the size as needed */
-    font-weight:italic;
+    font-family: 'Playfair Display', sans-serif; /* Replace with your desired font family */
+    font-size: 48px; /* Adjust the size as needed */
+    font-weight:700;
+    color: #FFFFFF
     /* You can add more styling here if needed */
   }
 
@@ -38,3 +51,28 @@
     align-items: center; /* Align items vertically */
     justify-content: flex-start; /* Align items to the start (left) of the container */
   }
+  .container {
+    display: flex;
+    align-items: stretch; /* Align children's height */
+  }
+  
+  .image-container {
+    flex: 0 0 auto; /* Do not grow or shrink */
+  }
+  
+  .text-container {
+    flex-grow: 1; /* Grow to fill the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center text vertically */
+  }
+  
+  .image-about-us {
+    width: 100%; /* Fill the container */
+    height: 100%; /* Fill the container */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 0.5rem; /* Rounded corners */
+  }
+
+
+  

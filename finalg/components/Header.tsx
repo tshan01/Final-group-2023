@@ -9,12 +9,19 @@ const Header = () => {
     window.open(mailchimpSignupUrl, '_blank');
   };
 
+  const buttonStyle = {
+    background: 'linear-gradient(to right,#9C7945,#D8C691,#D8C691,#BE9E45)', // Gold gradient
+    color: 'black', // Black text
+    border: 'none' // Remove border if present
+    
+  };
+
   return (
     <Navbar className="coffee-bean-color">
       <NavbarBrand>
         {/* Replace <img> with <Image> */}
         <Image 
-          src="/TB1.png" 
+          src="/TB1.webp" 
           alt="Your Brand Logo" 
           width={100} // Set the width as needed
           height={100} // Set the height as needed
@@ -34,7 +41,11 @@ const Header = () => {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button color="primary" onClick={openMailchimpSignup} variant="flat">
+        <Button 
+            style={buttonStyle}
+            onClick={openMailchimpSignup}
+            variant="flat"
+          >
             SIGN UP
           </Button>
         </NavbarItem>

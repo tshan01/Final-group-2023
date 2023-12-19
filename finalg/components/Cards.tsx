@@ -9,74 +9,75 @@ export default function Cards() {
   const list = [
     {
       title: "Espresso",
-      img: "/Espresso.jpeg",
-      price: "$5.50",
+      img: "/Espresso.webp",
+      price: "$3.45",
     },
     {
       title: "True Mocha",
-      img: "True Mocha.jpeg",
-      price: "$15.70",
+      img: "True Mocha.webp",
+      price: "$3.45",
     },
    
     {
       title: "Cappuccino",
-      img: "Cappuccino.jpeg",
-      price: "$10.00",
+      img: "Cappuccino.webp",
+      price: "$6.00",
     },
     {
       title: "Latte",
-      img: "Latte.jpeg",
-      price: "$5.30",
+      img: "Lat.webp",
+      price: "$6.25",
     },
     {
       title: "Long Black",
-      img: "/Long Black.jpeg",
-      price: "$3.00",
+      img: "/Long Black.webp",
+      price: "$4.50",
     },
   
     {
       title: "Iced Espresso",
-      img: "Iced Espresso.jpeg",
-      price: "$8.00",
+      img: "Iced Espresso.webp",
+      price: "$5.00",
     },
    
     {
       title: "Cold Coffee Creme",
-      img: "Cold Coffee Creme.jpeg",
+      img: "Cold Coffee Creme.webp",
       price: "$12.20",
     },
     {
       title: "Brookie Creme",
-      img: "Brookie Creme.jpeg",
+      img: "Brookie Creme.webp",
       price: "$12.20",
     },
     {
       title: "Peanut Butter Creme",
-      img: "Peanut Butter Creme.jpeg",
+      img: "Peanut Butter Creme.webp",
       price: "$12.20",
     },
     {
       title: "Chocolate Cake",
-      img: "Chocolate Cake.jpeg",
-      price: "$12.20",
+      img: "Chocolate Cake.webp",
+      price: "$8.20",
     },
     {
       title: "Strawberry Cake",
-      img: "Strawberry Cake.jpeg",
-      price: "$12.20",
+      img: "Strawberry Cake.webp",
+      price: "$8.20",
     },
     {
       title: "Basque Cheesecake",
-      img: "Basque Cheesecake.jpeg",
-      price: "$12.20",
+      img: "Basque Cheesecake.webp",
+      price: "$8.20",
     },
 
 
   ];
 
   return (
-    <div className="mb-8 text-center" id="Cards">{/*Added margin-bottom for spacing*/}
-     <h2 className="text-2xl font-bold specialOfferFont mb-4">I LOVE COFFEE</h2>{ /* Added title "Menu" */}
+    <div className="mb-8 text-center">{/*Added margin-bottom for spacing*/}
+    
+     <h2 className="text-2xl font-bold headingFont mb-4">I LOVE COFFEE</h2>{ /* Added title "Menu" */}
      <br/>
      <br/>
 
@@ -92,7 +93,7 @@ export default function Cards() {
                 radius="lg"
                 width="100%"
                 height="100%"
-                //Removed objectFit="cover"
+                objectFit="cover"
                 alt={item.title}
                 className="w-full object-cover h-[140px]"
                 src={item.img}
