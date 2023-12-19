@@ -10,6 +10,7 @@ export default function Home() {
         <Hero />
       </div>
       <br /><br />
+      <br/>
 
       <div id="Cards">
         <Cards />
