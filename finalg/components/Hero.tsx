@@ -25,7 +25,7 @@ export default function Hero() {
             <span className="specialOfferFont">Your FREE Coorg Coffee is just the beginning</span>
             <br />
           </h1>
-          <span className="specialOfferFont">&quot;Sign up today, and we&apos;ll also gift you a 10% discount on your next order, because one cup of Coorg is never enough!&quot;</span>
+          <span className="specialOfferFont">&quot;Sign up today, and grab exclusive offers from your next order, because one cup of Coorg is never enough!&quot;</span>
           
          
         </div>
