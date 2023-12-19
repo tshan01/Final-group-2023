@@ -44,7 +44,7 @@ const AboutUs = () => {
         <Image src="/c11.webp" alt="Description of Image 3" width={200} height={200} className="rounded-md" />
         <Image src="/c12.webp" alt="Description of Image 2" width={200} height={200} className="rounded-md" />
         <Image src="/C13.webp" alt="Description of Image 3" width={200} height={200} className="rounded-md" />
-        <Image src="/c30.webp" alt="Description of Image 3" width={200} height={200} className="rounded-md" />
+        <Image src="/c5.webp" alt="Description of Image 3" width={200} height={200} className="rounded-md" />
         <Image src="/TB1.webp" alt="Description of Image 3" width={200} height={200} className="rounded-md" />
       </div>
     </section>
