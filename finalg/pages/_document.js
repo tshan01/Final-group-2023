@@ -5,8 +5,10 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+          <meta name="theme-color" content="#yourColorValue" /> 
           {/* Add custom tags in the head here */}
-          <meta name="theme-color" content="#yourColorHere" />
+          
         </Head>
         <body>
           <Main />

@@ -19,22 +19,21 @@ export default function Hero() {
         {/* Text Content on the Left */}
         <div className="text-content py-16 px-8 text-white flex-grow">
           <h1 className="text-4xl font-bold">
-            <span className="text-primary indiaGradient tasteOfIndiaFont">From the Lush Hills of India to Your Cup – Explore the Essence of Coorg with Every Sip.!</span><br/><br/>
-            <span className="specialOfferFont">Buy 1 get 1 CAPPUCCINO!</span>
+            <span className="text-primary headingFont">COORGS Bold Coffee Sanctuary</span><br/>
+           
+       
+            <span className="specialOfferFont">Your FREE Coorg Coffee is just the beginning</span>
             <br />
           </h1>
-          <p className="my-4 text-gray-500 text-semibold py-3 font-semibold">DON&apos;T MISS OUT ON THE MAGIC OF COORG COFFEE</p>
-          <div className="flex gap-4">
-            <button className="bg-white flex gap-2 items-center text-black px-4 py-2 rounded-full text-sm">
-              REGISTER HERE
-            </button>
-          </div>
+          <span className="specialOfferFont">"Sign up today, and we'll also gift you a 10% discount on your next order, because one cup of Coorg is never enough!"</span>
+          
+         
         </div>
 
         {/* Full Image on the Right */}
         <div className="flex-none" style={{ maxWidth: '100%', height: '70%' }}>
           <Image 
-            src="/R1c9.jpg" 
+            src="/R1c9.webp" 
             alt="Coffee Image" 
             width={800} // Adjust as needed
             height={500} // Adjust as needed
@@ -48,7 +47,7 @@ export default function Hero() {
       {/* Top Image */}
       <div className="container mx-auto" style={{ position: 'relative', height: '30vh' }}>
         <Image
-          src="/TB1.png" 
+          src="/TB1.webp" 
           alt="Top Image Description" 
           layout="fill"
           objectFit="cover"
