@@ -22,9 +22,11 @@ export default function Hero() {
             <span className="text-primary headingOneFont">COORGS Bold Coffee Sanctuary</span><br/>
            
        
-            <span className="specialOfferFont">Your FREE Coorg Coffee is just the beginning</span>
+            
             <br />
           </h1>
+          <span className="specialOfferFont">Grab a FREE Cappuccino!</span><br/>
+          <span className="specialOfferFont">Only for first 100 TB Subscribers</span><br/>
           <span className="specialOfferFont">&quot;Sign up today, and grab exclusive offers from your next order, because one cup of Coorg is never enough!&quot;</span>
           
          
