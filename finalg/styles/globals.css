@@ -85,5 +85,25 @@
     border-radius: 0.5rem; /* Rounded corners */
   }
 
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+  }
+/* styles/Home.module.css */
+.container {
+    padding: 5%;
+  }
+  
+  .header {
+    background-color: lightblue;
+  }
+  
+  .main {
+    font-size: 1.2rem;
+  }
+  
+
+    
 
   

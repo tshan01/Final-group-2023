@@ -4,6 +4,9 @@ import AboutUs from "@/components/AboutUs";
 
 export default function Home() {
   return (
+
+    
+
     <div>
       {/* Assign IDs for internal navigation */}
       <div id="Home">
