@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Cards from "@/components/Cards";
 import AboutUs from "@/components/AboutUs";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -22,7 +23,9 @@ export default function Home() {
 
       <div id="AboutUs">
         <AboutUs />
+        
       </div>
+    <Footer/>
     </div>
   );
 }
