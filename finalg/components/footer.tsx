@@ -43,7 +43,7 @@ const Footer = () => {
                     color: '#494DAB', // Blue text color for the company name and copyright notice
                     fontSize: '14px', // Smaller font size for copyright notice
                 }}>
-                    © TrueBlackNYC 2016 • All rights reserved.
+                    © TrueBlackNYC 2023 • All rights reserved.
                 </div>
             </div>
 
