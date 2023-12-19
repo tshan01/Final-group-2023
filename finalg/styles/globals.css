@@ -24,6 +24,17 @@
 
   .headingFont {
     font-family: 'Roboto', sans-serif; /* Replace with your desired font-family */
+    font-size: 40px; /* Replace with your desired font-size */
+    font-weight: bold; /* Make the font Bold */
+    color:transparent; /* Optional: Change color if needed */
+    background: linear-gradient(to right,#9C7945,#D8C691,#D8C691,#BE9E45);
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Add any other font-related properties you need */
+  }
+
+  .headingOneFont {
+    font-family: 'Roboto', sans-serif; /* Replace with your desired font-family */
     font-size: 50px; /* Replace with your desired font-size */
     font-weight: bold; /* Make the font Bold */
     color:transparent; /* Optional: Change color if needed */

@@ -19,7 +19,7 @@ export default function Hero() {
         {/* Text Content on the Left */}
         <div className="text-content py-16 px-8 text-white flex-grow">
           <h1 className="text-4xl font-bold">
-            <span className="text-primary headingFont">COORGS Bold Coffee Sanctuary</span><br/>
+            <span className="text-primary headingOneFont">COORGS Bold Coffee Sanctuary</span><br/>
            
        
             <span className="specialOfferFont">Your FREE Coorg Coffee is just the beginning</span>
