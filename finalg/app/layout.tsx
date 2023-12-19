@@ -33,7 +33,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<head />
-			<GoogleAnalytics GA_MEASUREMENT_ID='G-84Y9RYT77F'/>
+			<GoogleAnalytics GA_MEASUREMENT_ID='G-EH7WHEXDLL'/>
 			<body
 				className={clsx(
 					"min-h-screen bg-background font-sans antialiased",

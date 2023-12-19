@@ -1,5 +1,3 @@
-'use client';
-
 import Script from 'next/script';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { useEffect } from "react";
@@ -7,13 +5,12 @@ import { pageview } from "@/lib/gtagHelper";
 
 export default function GoogleAnalytics({ GA_MEASUREMENT_ID } : { GA_MEASUREMENT_ID : string }) {
     const pathname = usePathname();
-    const [searchParams] = useSearchParams();
+    const searchParams = useSearchParams(); // Use directly without array destructuring
 
     useEffect(() => {
-        // Convert searchParams to a query string
-        const searchParamsString = searchParams ? `?${new URLSearchParams(searchParams).toString()}` : '';
-        const url = pathname + searchParamsString;
-
+       // Ensure searchParams is not null before calling toString()
+       const url = pathname + (searchParams ? searchParams.toString() : '');
+    
         pageview(GA_MEASUREMENT_ID, url);
         
     }, [pathname, searchParams, GA_MEASUREMENT_ID]);
@@ -21,7 +18,7 @@ export default function GoogleAnalytics({ GA_MEASUREMENT_ID } : { GA_MEASUREMENT
     return (
         <>
             <Script strategy="afterInteractive" 
-                src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} />
+                src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}/>
             <Script id='google-analytics' strategy="afterInteractive"
                 dangerouslySetInnerHTML={{
                 __html: `
