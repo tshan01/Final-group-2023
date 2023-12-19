@@ -34,7 +34,7 @@ const AboutUs = () => {
             More than just a coffee destination, True Black is a community hub, a place where ideas, friendships, and creativity thrive. It&apos;s where artists, writers, thinkers, and dreamers come together, united by their love of coffee and the energy of like-minded souls.
           </article>
           <article className="text-white text-[16px] font-worksans-medium leading-relaxed mt-[2rem]">
-            Every visit to True Black is an opportunity for a sensory journey, to explore new flavors, make new connections, and create new stories. We invite you to indulge in the experience and savor the artistry in every cup.At True Black, coffee is a celebration of culture, a bridge between traditions, and an adventure in every cup. Join us and discover how, at True Black, every cup is not just coffee—it&apos;s a masterpiece waiting to unfold.
+            Every visit to True Black is an opportunity for a sensory journey, to explore new flavors, make new connections, and create new stories. We invite you to indulge in the experience and savor the artistry in every cup. At True Black, coffee is a celebration of culture, a bridge between traditions, and an adventure in every cup. Join us and discover how, at True Black, every cup is not just coffee&mdash;it&apos;s a masterpiece waiting to unfold.
           </article>
         </div>
       </div>
